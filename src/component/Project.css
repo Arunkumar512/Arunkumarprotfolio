@@ -1,0 +1,75 @@
+.main {
+  background: #202832;
+  margin: 1rem;
+  color: aliceblue;
+  height: 100vh;
+}
+#projectDetail {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+#projectDetail p {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10%;
+  background: #181e28;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+#projectDetail #fire {
+  background-image: url(https://images.unsplash.com/photo-1572204097183-e1ab140342ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-position: center;
+  margin-top: 29rem;
+  transition: 1s;
+  
+}
+#projectDetail #vend {
+  background-image: url(https://previews.123rf.com/images/golubovy/golubovy1910/golubovy191000005/131022245-technical-analysis-repair-electronic-components-on-dark-background.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 9rem;
+}
+#projectDetail #water {
+  background-image: url(https://www.theinertia.com/wp-content/uploads/2018/11/matt-hardy-562566-unsplash-670x388.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -9rem;
+}
+#projectDetail #farm {
+  background-image: url(https://media.istockphoto.com/id/1471181213/photo/sunset-of-nature-with-wheat.jpg?s=612x612&w=0&k=20&c=Spes218GR1ElbiY8M5QZltrAFo7762_fWdYRbrC4wEc=);
+  background-size: cover;
+  background-position: center;
+  margin-top: -29rem;
+}
+#major{
+width :27rem;
+height: 0rem;
+color :white;
+
+}
+#projectDetail #fire:hover{
+  background: #000;
+ 
+
+}
+#projectDetail #vend:hover{
+  background: #000;
+ 
+
+}
+#projectDetail #water:hover{
+  background: #000;
+ 
+
+}
+#projectDetail #farm:hover{
+  background: #000;
+  
+
+}
