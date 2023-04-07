@@ -1,0 +1,62 @@
+#main_body {
+  display: flex;
+  margin :auto;
+}
+.box {
+  background: #202832;
+  margin: 1rem;
+  color: aliceblue;
+  margin-top: 1rem;
+}
+
+#profile {
+  width: 30rem;
+  height: 50rem;
+
+}
+#about {
+  width: auto;
+  height: auto;
+  word-spacing: 2px;
+  margin-right: 3rem;
+}
+img {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 25%;
+  width: 10rem;
+  height: 10rem;
+}
+#DETAILS {
+  margin: 1rem;
+  cursor: default;
+}
+#DETAILS p:hover {
+  color: #68f2e7;
+  transform: scale(1.15);
+}
+.skill p {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 20%;
+  background: #181e28;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.skill {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  margin-top: 1rem;
+  margin-left: 9rem;
+}
+.skill p:hover {
+  color:#181e28;
+  transform: scale(1.2);
+  background: white;
+}
+#info{
+margin: 2rem;
+}
