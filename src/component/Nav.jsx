@@ -16,9 +16,9 @@ function Nav() {
       <a href="#Award">
         <FaAward />
       </a>
-      <a href="#Contact">
+      {/* <a href="#Contact">
         <RiContactsBook2Fill />
-      </a>
+      </a> */}
     </nav>
   );
 }

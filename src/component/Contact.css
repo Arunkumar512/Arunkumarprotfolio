@@ -1,0 +1,32 @@
+.main {
+  height: 100vh;
+  box-sizing: border-box;
+}
+#mainbox{
+display: flex;
+align-items: center;
+justify-content: baseline;
+padding-left: 1.5rem;
+}
+.main_box {
+  padding: 5rem;
+  width: 40%;
+  height: 50%;
+  background: red;
+}
+.main_box1{
+    width: 15rem;
+    height: 15rem;
+    background: palevioletred
+}
+.main_box1 input{
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+    
+}
+
+.main_box1 #button{
+ margin-top: 2rem;
+ margin-left: 5rem;
+}

@@ -1,11 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,700&display=swap');
 
 body, html {
-    font-family: 'Merriweather', serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(https://media.istockphoto.com/id/1326304939/vector/studio-room-in-dark-blue-background-with-copy-space-luxury-gallery-empty-room-abstract.jpg?s=612x612&w=0&k=20&c=wZhCPp213vDnmc66LNJ3Kb4qKZHr_xiKCvYmfpQgyHI=);
+    background-size: cover;
+    background-position: center;
+
 }
+
+
+
+
+
+
+
+

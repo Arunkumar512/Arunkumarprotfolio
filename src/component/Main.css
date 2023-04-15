@@ -1,6 +1,6 @@
 #main_body {
   display: flex;
-  margin :auto;
+  margin: auto;
   height: 100vh;
 }
 .box {
@@ -32,8 +32,8 @@ img {
   cursor: default;
 }
 #DETAILS p:hover {
-  color: #68f2e7;
-  transform: scale(1.15);
+  color: #e9e0d1;
+  transform: scale(1.05);
 }
 .skill p {
   width: 8rem;
@@ -48,17 +48,78 @@ img {
 .skill {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  margin-top: 1rem;
+  margin-top: -2rem;
   margin-left: 9rem;
 }
+
 .skill p:hover {
-  color:#181e28;
+  color: #223349;
   transform: scale(1.2);
-  background: white;
+  background: #e9e0d1;
 }
-#info{
-margin: 2rem;
+#info {
+  margin: 0.7rem;
 }
-img:hover{
-transform: scale(1.02);
+#profimg:hover {
+  transform: scale(1.05);
+}
+#CV {
+  background: #223349;
+  border: none;
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20%;
+  margin: 30px;
+  text-decoration: none;
+}
+#CV:hover {
+  transform: scale(1.1);
+  background: #e9e0d1;
+}
+#CV1 {
+  text-decoration: none;
+  color: #e9e0d1;
+}
+#CV1:hover {
+  text-decoration: none;
+  color: #223349;
+}
+#icon {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+#icon a {
+color: antiquewhite;
+font-size: x-large;
+}
+
+#icon a{
+  display: inline-block;
+  position: relative;
+  color: #e9e0d1;
+}
+
+#icon a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e9e0d1;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#icon a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#skilltag{
+margin-left: 1rem;
+font-size: large;
+cursor: default;
 }

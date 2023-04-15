@@ -4,7 +4,6 @@ import Main from './component/Main';
 import Project from './component/Project';
 import Award from './component/Award';
 import Contact from './component/Contact';
-
 function App() {
   return (
     <div className="App">
@@ -12,7 +11,6 @@ function App() {
       <Main />
       <Project/>
       <Award/>
-      <Contact/>
     </div>
   );
 }
