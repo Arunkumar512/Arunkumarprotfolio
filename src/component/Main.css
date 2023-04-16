@@ -1,7 +1,8 @@
 #main_body {
   display: flex;
   margin: auto;
-  height: 100vh;
+  height: auto;
+  width: auto;
 }
 .box {
   background: #202832;
@@ -86,23 +87,23 @@ img {
   color: #223349;
 }
 #icon {
-display: flex;
-align-items: center;
-justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 #icon a {
-color: antiquewhite;
-font-size: x-large;
+  color: antiquewhite;
+  font-size: x-large;
 }
 
-#icon a{
+#icon a {
   display: inline-block;
   position: relative;
   color: #e9e0d1;
 }
 
 #icon a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -118,8 +119,27 @@ font-size: x-large;
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-#skilltag{
-margin-left: 1rem;
-font-size: large;
-cursor: default;
+#skilltag {
+  margin-left: 1rem;
+  font-size: large;
+  cursor: default;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #main_body {
+    display: flex;
+   flex-direction: column;
+  }
+  #profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 22.5rem;
+    flex-direction: column;
+  }
+  #icon {
+    display: flex;
+    align-items: center;
+    gap:2rem;
+  }
 }

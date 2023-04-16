@@ -11,6 +11,7 @@ function App() {
       <Main />
       <Project/>
       <Award/>
+      <Contact/>
     </div>
   );
 }

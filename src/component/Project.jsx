@@ -2,13 +2,14 @@ import React, { useEffect } from "react";
 import "../component/Project.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import dim from "../component/asset/img/img3.png"
 function Project() {
   useEffect(() => {
     Aos.init({ duration: 2500 });
   }, []);
   return (
     <section id="Project">
-      <div data-aos="fade-right" className="main">
+      <div data-aos="fade-right" className="mainproject">
         <div data-aos="slide-left" id="major">
           <h1>Major Project</h1>
           <p>
@@ -72,6 +73,9 @@ function Project() {
               <div className="face face2"></div>
             </div>
           </div>
+          <div id="thread">
+            <img src={dim} alt="3d img" />
+          </div>
         </div>
       </div>
     </section>
@@ -79,11 +83,4 @@ function Project() {
 }
 
 export default Project;
-{
-  /* <ul>
-<li data-aos="fade-down-left" id="fire">Automated Solution for Fire Emergencies.</li>
-<li data-aos="fade-down-left"id="vend">Innovative Vending Machine</li>
-<li data-aos="fade-down-left"id="water">Water Quality Monitoring System</li>
-<li data-aos="fade-down-left"id="farm">Sustainable and Smart Farming</li>
-</ul> */
-}
+

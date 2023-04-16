@@ -10,7 +10,7 @@ function Award() {
   },[]);
   return (
     <section id="Award">
-      <div data-aos="zoom-in-right" className="main" id="sep">
+      <div data-aos="zoom-in-right" className="mainaward" id="sep">
         <div>
           <h1 data-aos="flip-down" className="main_head"><BsFillAwardFill/> Awards</h1>
         </div>

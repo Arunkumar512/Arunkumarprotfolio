@@ -1,8 +1,9 @@
-.main {
+.mainproject {
   background: #202832;
   margin: 1rem;
+  margin-bottom: 1rem;
   color: #151526;
-  height: 100vh;
+  height:max-content;
 }
 #projectDetail ul{
   display: flex;
@@ -122,4 +123,93 @@ margin-top: 9rem;
 }
 #four{
 margin-top: 0rem;
+}
+#thread img {
+position: absolute;
+bottom: -20px;;
+left: -5rem;
+width: 20rem;
+height: 20rem; 
+}
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .card2{
+    width: 10rem;
+    height: 10rem;
+  }
+  .mainproject {
+    height:max-content;
+    width:max-content;
+  }
+  #one{
+    margin-top: 9rem;
+    }
+    #two{
+    margin-top: 2rem;
+    }
+    #three{
+    margin-top: 2rem;
+    }
+    #four{
+    margin-top: 2rem;
+    }
+    #major {
+      font-size: x-small;
+      width:20.5rem
+    }
 }

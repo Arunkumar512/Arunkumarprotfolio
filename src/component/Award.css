@@ -1,6 +1,9 @@
-.main {
+.mainaward{
   box-sizing: border-box;
-  height: 90vh;
+  height: auto;
+  width: auto;
+  background:#202832;
+  margin: 1rem;
 }
 .main_head {
   margin-left: 40%;
